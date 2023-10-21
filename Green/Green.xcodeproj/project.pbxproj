@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2621262AE31AFB00ADD2A3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2621252AE31AFB00ADD2A3 /* TabBarController.swift */; };
+		CE2621282AE320A100ADD2A3 /* StoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2621272AE320A100ADD2A3 /* StoreController.swift */; };
+		CE26212A2AE320B100ADD2A3 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2621292AE320B100ADD2A3 /* ProfileController.swift */; };
 		CEB0C36F2AD494B000AE3AB9 /* UIColorExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0C36E2AD494B000AE3AB9 /* UIColorExtentions.swift */; };
 		CEB0C3722AD4954400AE3AB9 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0C3712AD4954400AE3AB9 /* Color.swift */; };
 		CEB0C3752AD495EC00AE3AB9 /* UIColor+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0C3742AD495EC00AE3AB9 /* UIColor+RGB.swift */; };
+		CEB0C3782AD5B4DF00AE3AB9 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0C3772AD5B4DF00AE3AB9 /* PostCell.swift */; };
+		CEE1F11D2ADACBD700FC6F14 /* PinLayout in Frameworks */ = {isa = PBXBuildFile; productRef = CEE1F11C2ADACBD700FC6F14 /* PinLayout */; };
+		CEE1F1202ADB01DB00FC6F14 /* PostCellModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE1F11F2ADB01DB00FC6F14 /* PostCellModels.swift */; };
+		CEE1F1222ADB046800FC6F14 /* PostCellDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE1F1212ADB046800FC6F14 /* PostCellDataModel.swift */; };
 		CEE7B7692AB0E070001F740D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7B7682AB0E070001F740D /* AppDelegate.swift */; };
 		CEE7B76B2AB0E070001F740D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7B76A2AB0E070001F740D /* SceneDelegate.swift */; };
 		CEE7B76D2AB0E070001F740D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7B76C2AB0E070001F740D /* ViewController.swift */; };
@@ -17,12 +24,21 @@
 		CEE7B7722AB0E072001F740D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE7B7712AB0E072001F740D /* Assets.xcassets */; };
 		CEE7B7752AB0E072001F740D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE7B7732AB0E072001F740D /* LaunchScreen.storyboard */; };
 		CEE7B77F2AB37E2E001F740D /* ViewHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7B77E2AB37E2E001F740D /* ViewHomeController.swift */; };
+		CEF513592AD87B0E004F9D42 /* PinLayout in Frameworks */ = {isa = PBXBuildFile; productRef = CEF513582AD87B0E004F9D42 /* PinLayout */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE2621252AE31AFB00ADD2A3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		CE2621272AE320A100ADD2A3 /* StoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreController.swift; sourceTree = "<group>"; };
+		CE2621292AE320B100ADD2A3 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		CEB0C36E2AD494B000AE3AB9 /* UIColorExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtentions.swift; sourceTree = "<group>"; };
 		CEB0C3712AD4954400AE3AB9 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		CEB0C3742AD495EC00AE3AB9 /* UIColor+RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+RGB.swift"; sourceTree = "<group>"; };
+		CEB0C3772AD5B4DF00AE3AB9 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		CEB0C37A2AD870C800AE3AB9 /* PinLayout */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PinLayout; path = ../PinLayout; sourceTree = "<group>"; };
+		CEB0C37B2AD870DA00AE3AB9 /* PinLayout */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PinLayout; path = ../PinLayout; sourceTree = "<group>"; };
+		CEE1F11F2ADB01DB00FC6F14 /* PostCellModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCellModels.swift; sourceTree = "<group>"; };
+		CEE1F1212ADB046800FC6F14 /* PostCellDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCellDataModel.swift; sourceTree = "<group>"; };
 		CEE7B7652AB0E06F001F740D /* Green.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Green.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE7B7682AB0E070001F740D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEE7B76A2AB0E070001F740D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE1F11D2ADACBD700FC6F14 /* PinLayout in Frameworks */,
+				CEF513592AD87B0E004F9D42 /* PinLayout in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,17 +84,49 @@
 		CEB0C3732AD4955200AE3AB9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				CE2621252AE31AFB00ADD2A3 /* TabBarController.swift */,
 				CEE7B76C2AB0E070001F740D /* ViewController.swift */,
 				CEE7B77E2AB37E2E001F740D /* ViewHomeController.swift */,
+				CE2621272AE320A100ADD2A3 /* StoreController.swift */,
+				CE2621292AE320B100ADD2A3 /* ProfileController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CEB0C3762AD5B4B000AE3AB9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CEB0C3772AD5B4DF00AE3AB9 /* PostCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CEB0C3792AD870C700AE3AB9 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				CEB0C37A2AD870C800AE3AB9 /* PinLayout */,
+				CEB0C37B2AD870DA00AE3AB9 /* PinLayout */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		CEE1F11E2ADB01B000FC6F14 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEE1F11F2ADB01DB00FC6F14 /* PostCellModels.swift */,
+				CEE1F1212ADB046800FC6F14 /* PostCellDataModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		CEE7B75C2AB0E06F001F740D = {
 			isa = PBXGroup;
 			children = (
+				CEE1F11E2ADB01B000FC6F14 /* Models */,
+				CEB0C3792AD870C700AE3AB9 /* Packages */,
 				CEE7B7672AB0E06F001F740D /* Green */,
 				CEE7B7662AB0E06F001F740D /* Products */,
+				CEF513572AD87B0E004F9D42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +141,7 @@
 		CEE7B7672AB0E06F001F740D /* Green */ = {
 			isa = PBXGroup;
 			children = (
+				CEB0C3762AD5B4B000AE3AB9 /* Cell */,
 				CEE7B7682AB0E070001F740D /* AppDelegate.swift */,
 				CEE7B76A2AB0E070001F740D /* SceneDelegate.swift */,
 				CEB0C3732AD4955200AE3AB9 /* Controllers */,
@@ -101,6 +152,13 @@
 				CEB0C36D2AD4948A00AE3AB9 /* Extentions */,
 			);
 			path = Green;
+			sourceTree = "<group>";
+		};
+		CEF513572AD87B0E004F9D42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +177,10 @@
 			dependencies = (
 			);
 			name = Green;
+			packageProductDependencies = (
+				CEF513582AD87B0E004F9D42 /* PinLayout */,
+				CEE1F11C2ADACBD700FC6F14 /* PinLayout */,
+			);
 			productName = Green;
 			productReference = CEE7B7652AB0E06F001F740D /* Green.app */;
 			productType = "com.apple.product-type.application";
@@ -147,6 +209,9 @@
 				Base,
 			);
 			mainGroup = CEE7B75C2AB0E06F001F740D;
+			packageReferences = (
+				CEE1F11B2ADACBD700FC6F14 /* XCRemoteSwiftPackageReference "PinLayout" */,
+			);
 			productRefGroup = CEE7B7662AB0E06F001F740D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -175,12 +240,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE7B76D2AB0E070001F740D /* ViewController.swift in Sources */,
+				CE2621282AE320A100ADD2A3 /* StoreController.swift in Sources */,
+				CEE1F1222ADB046800FC6F14 /* PostCellDataModel.swift in Sources */,
+				CE2621262AE31AFB00ADD2A3 /* TabBarController.swift in Sources */,
 				CEB0C3752AD495EC00AE3AB9 /* UIColor+RGB.swift in Sources */,
+				CE26212A2AE320B100ADD2A3 /* ProfileController.swift in Sources */,
+				CEE1F1202ADB01DB00FC6F14 /* PostCellModels.swift in Sources */,
 				CEE7B7692AB0E070001F740D /* AppDelegate.swift in Sources */,
 				CEE7B76B2AB0E070001F740D /* SceneDelegate.swift in Sources */,
 				CEE7B77F2AB37E2E001F740D /* ViewHomeController.swift in Sources */,
 				CEB0C36F2AD494B000AE3AB9 /* UIColorExtentions.swift in Sources */,
 				CEB0C3722AD4954400AE3AB9 /* Color.swift in Sources */,
+				CEB0C3782AD5B4DF00AE3AB9 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +471,29 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CEE1F11B2ADACBD700FC6F14 /* XCRemoteSwiftPackageReference "PinLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/layoutBox/PinLayout";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.10.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CEE1F11C2ADACBD700FC6F14 /* PinLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEE1F11B2ADACBD700FC6F14 /* XCRemoteSwiftPackageReference "PinLayout" */;
+			productName = PinLayout;
+		};
+		CEF513582AD87B0E004F9D42 /* PinLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PinLayout;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CEE7B75D2AB0E06F001F740D /* Project object */;
 }
